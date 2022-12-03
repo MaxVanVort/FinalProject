@@ -15,8 +15,9 @@ public class Project5
         System.out.println("Welcome to the December Holiday Weather Tracker!"+"\n");
         System.out.println("Which day in the December Holidy Season (Dec 15-31) would you like to know the weather of? Please input a number, such as 15 or 25.");
         int UserDay=input.nextInt();
+        int i=0;
         if (UserDay==15){
-            list.get(0).printInfo();
+            System.out.println(list.get(0));
         }else if (UserDay==16){
             list.get(1).printInfo();
         }else if (UserDay==17){
