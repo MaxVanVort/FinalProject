@@ -17,6 +17,38 @@ public class Project5
         int UserDay=input.nextInt();
         if (UserDay==15){
             list.get(0).printInfo();
+        }else if (UserDay==16){
+            list.get(1).printInfo();
+        }else if (UserDay==17){
+            list.get(2).printInfo();
+        }else if (UserDay==18){
+            list.get(3).printInfo();
+        }else if (UserDay==19){
+            list.get(4).printInfo();
+        }else if (UserDay==20){
+            list.get(5).printInfo();
+        }else if (UserDay==21){
+            list.get(6).printInfo();
+        }else if (UserDay==22){
+            list.get(7).printInfo();
+        }else if (UserDay==23){
+            list.get(8).printInfo();
+        }else if (UserDay==24){
+            list.get(9).printInfo();
+        }else if (UserDay==25){
+            list.get(10).printInfo();
+        }else if (UserDay==26){
+            list.get(11).printInfo();
+        }else if (UserDay==27){
+            list.get(12).printInfo();
+        }else if (UserDay==28){
+            list.get(13).printInfo();
+        }else if (UserDay==29){
+            list.get(14).printInfo();
+        }else if (UserDay==30){
+            list.get(15).printInfo();
+        }else if (UserDay==31){
+            list.get(16).printInfo();
         }
     }
     public Project5(String d, int t, WeatherSystem s){
