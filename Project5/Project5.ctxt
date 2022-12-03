@@ -2,8 +2,8 @@
 comment0.target=Project5
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
-comment2.params=d\ s\ t\ m
-comment2.target=Project5(java.lang.String,\ Project5.WeatherSystem,\ int,\ java.lang.String)
+comment2.params=d\ t\ s
+comment2.target=Project5(java.lang.String,\ int,\ Project5.WeatherSystem)
 comment3.params=list
 comment3.target=void\ weatherForDecember(java.util.ArrayList)
 numComments=4
