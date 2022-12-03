@@ -11,9 +11,13 @@ public class Project5
     public static void main(String[] args)
     {
         Scanner input = new Scanner(System.in);
+        ArrayList<Project5> list=new ArrayList<Project5>();
         System.out.println("Welcome to the December Holiday Weather Tracker!"+"\n");
         System.out.println("Which day in the December Holidy Season (Dec 15-31) would you like to know the weather of? Please input a number, such as 15 or 25.");
         int UserDay=input.nextInt();
+        if (UserDay==15){
+            list.get(0).printInfo();
+        }
     }
     public Project5(String d, int t, WeatherSystem s){
         this.date=d;
@@ -56,5 +60,10 @@ public class Project5
         list.add(Dec30);
         Project5 Dec31=new Project5("December 31st", 31, Project5.WeatherSystem.WINDY);
         list.add(Dec31);
+    }
+    public void printInfo(){
+        System.out.println(this.date);
+        System.out.println(this.tempurature);
+        System.out.println(this.forecast);
     }
 }
