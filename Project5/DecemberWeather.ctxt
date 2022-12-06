@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=DecemberWeather
+comment1.params=d\ t\ s
+comment1.target=DecemberWeather(java.lang.String,\ int,\ DecemberWeather.WeatherSystem)
+comment2.params=
+comment2.target=java.lang.String\ getDate()
+comment3.params=
+comment3.target=int\ getTempurature()
+comment4.params=
+comment4.target=DecemberWeather.WeatherSystem\ getForecast()
+comment5.params=
+comment5.target=void\ printInfo()
+numComments=6
