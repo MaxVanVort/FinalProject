@@ -78,7 +78,7 @@ public class Project5
                 break;
             }
         }
-            if (UserDay<15){
+        if (UserDay<15){
             try {
                 System.out.println("Your date isn't recognized: please try again.");
                 UserDay = input.nextInt();
